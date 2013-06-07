@@ -1,4 +1,12 @@
 Openlectures::Application.routes.draw do
+  resources :checkpoints
+
+  resources :lessons
+
+  resources :topics
+
+  resources :seab_sub_topics
+
   resources :seab_topics
 
   devise_for :users

@@ -1,0 +1,2 @@
+class SeabSubTopicsController < ApplicationController
+end
