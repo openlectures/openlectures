@@ -1,0 +1,1 @@
+json.(@subject, :id, :subject)
