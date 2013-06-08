@@ -5,7 +5,7 @@ Openlectures::Application.routes.draw do
   resources :topics
   resources :seab_sub_topics
   resources :seab_topics
-  resources :subjects, only: [:index, :show]
+  resources :subjects, only: [:index, :show, :edit]
 
   devise_for :users
   %w{about contribute partners contact press staff search outreach}.each do |action|
