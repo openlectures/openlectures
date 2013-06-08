@@ -3,13 +3,13 @@ class SubjectsController < ApplicationController
     @subjects = Subject.all
   end
 
-  def show
-    @subject = Subject.find(params[:id])
-  end
+  # def show
+  #   @subject = Subject.find(params[:id])
+  # end
 
-  def edit
-    @subject = Subject.find(params[:id])
-  end
+  # def edit
+  #   @subject = Subject.find(params[:id])
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
